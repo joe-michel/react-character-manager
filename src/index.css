@@ -1,0 +1,358 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #2F4F4F;
+}
+
+.Upper{
+	background-image: url(http://www.nerdsrevenge.it/wp-content/uploads/2013/04/Stuart-Immonen.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid 8px white;
+}
+
+.Upper-text{
+	color: white;
+	background-color: rgba(47,79,79,0.8);
+	width: 100%;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	border-top: white 2px solid;
+	border-bottom: white 2px solid;
+}
+
+.Upper-text h1{
+	font-size: 700%;
+}
+
+.Upper-text a{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 150%;
+	border: solid 2px white;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+.Upper-text a:hover{
+	background-color: rgba(255,255,255,0.3);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Bottom{
+	background-color: #2F4F4F;
+	min-height: 100vh;
+	padding-bottom: 50px;
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.card{
+	width: 500px;
+	text-align: center;
+	height: 40vh;
+	border-color: black;
+	border-width: 1px;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	margin-top: 50px;
+}
+
+.image{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vh;
+	border-radius: 50%;
+	border: solid 2px black;
+}
+
+.card-body{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card-text{
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 110px;
+	max-height: 110px;
+	color: cyan;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+.card-footer{
+	background-color: rgba(0,0,0,0.3);
+	padding: 0;
+	border: solid 1px black;
+	height: 5vh;
+}
+
+.character-link{
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	height: 100%;
+	vertical-align: middle;
+	line-height: 250%;
+	color: white;
+	font-weight: bolder;
+}
+
+.card-footer:hover{
+	animation-name: linkHover;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+}
+
+.card-footer:hover > .character-link{
+	animation-name: linkHover;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	text-decoration: none;
+}
+
+@keyframes linkHover{
+	from {
+		background-color: inherit;
+		border-color: black;
+		color: white;
+	}
+
+	to {
+		background-color: lightblue;
+		border-color: cyan;
+		color: black;
+	}
+}
+
+.characterPage{
+	background-color: #2F4F4F;
+	height: 100vh;
+}
+
+.characterTitle{
+	font-size: 500%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	color: white;
+	border-bottom: solid 5px white;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.imageBig{
+	border-radius: 50%;
+	border: solid 2px black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	
+}
+
+.characterContent{
+	text-align: center;
+	color: white;
+}
+
+.Buttons{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+.EditButton{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border: solid 1px black;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.EditButton:focus{
+	outline: none;
+}
+
+.EditButton:hover{
+	animation-name: editAnim;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	color: white;
+	text-decoration: none;
+}
+
+.Delete{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border: solid 1px black;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.Delete:focus{
+	outline: none;
+}
+
+.Delete:hover{
+	animation-name: deleteAnim;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	color: white;
+	text-decoration: none;
+}
+
+@keyframes editAnim{
+	from{
+		background-color: initial;
+	}
+
+	to{
+		background-color: #127C68;
+		filter: drop-shadow(4px 4px 4px black);
+	}
+}
+
+@keyframes deleteAnim{
+	from{
+		background-color: initial;
+	}
+
+	to{
+		background-color: #C62F37;
+		filter: drop-shadow(4px 4px 4px black);
+	}
+}
+
+.characterPage{
+	text-align: center;
+}
+
+.characterPage p{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Edit{
+	background-color: #2F4F4F;
+	height: 100vh;
+	color: white;
+	text-align: center;
+}
+
+.Edit h1{
+	padding-top: 5vh;
+	border-bottom: solid 5px white;
+	padding-bottom: 3vh;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.editForm form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.editForm p{
+	font-size: 150%;
+}
+
+.editForm input{
+	margin-bottom: 3vh;
+}
+
+.editForm textarea{
+	margin-bottom: 3vh;
+}
+
+.submitEdit{
+	background-color: rgba(0,0,0,0.3);
+	border: white 2px solid;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 8px;
+	font-weight: bolder;
+}
+
+.submitEdit:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.homeButton{
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	border: solid 1px black;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+
+.homeButton:focus{
+	outline: none;
+}
+
+.homeButton:hover{
+	background-color: rgba(255,255,255,0.3);
+	color: white;
+	text-decoration: none;
+}
+
+.characters{
+	text-align: center;
+}
+
+.newCharacter{
+	padding-top: 10vh;
+}
+
+.createButton{
+	margin-bottom: 10vh;
+	display: block;
+	color: white;
+	font-size: 250%;
+	border: dashed 4px white;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.createButton:hover{
+	color: white;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.3);
+}
