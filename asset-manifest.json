@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-character-manager/static/css/main.3c317f53.chunk.css",
-  "main.js": "/react-character-manager/static/js/main.607d1036.chunk.js",
-  "main.js.map": "/react-character-manager/static/js/main.607d1036.chunk.js.map",
+  "main.css": "/react-character-manager/static/css/main.1a3466d6.chunk.css",
+  "main.js": "/react-character-manager/static/js/main.c43ae3c6.chunk.js",
+  "main.js.map": "/react-character-manager/static/js/main.c43ae3c6.chunk.js.map",
   "runtime~main.js": "/react-character-manager/static/js/runtime~main.0c53a67b.js",
   "runtime~main.js.map": "/react-character-manager/static/js/runtime~main.0c53a67b.js.map",
   "static/css/2.bccd7db9.chunk.css": "/react-character-manager/static/css/2.bccd7db9.chunk.css",
   "static/js/2.45ea12ba.chunk.js": "/react-character-manager/static/js/2.45ea12ba.chunk.js",
   "static/js/2.45ea12ba.chunk.js.map": "/react-character-manager/static/js/2.45ea12ba.chunk.js.map",
   "index.html": "/react-character-manager/index.html",
-  "precache-manifest.998acadb3ea04d393e4b4c5081dde40b.js": "/react-character-manager/precache-manifest.998acadb3ea04d393e4b4c5081dde40b.js",
+  "precache-manifest.d2309402e39b52db2a93b360891950ab.js": "/react-character-manager/precache-manifest.d2309402e39b52db2a93b360891950ab.js",
   "service-worker.js": "/react-character-manager/service-worker.js",
   "static/css/2.bccd7db9.chunk.css.map": "/react-character-manager/static/css/2.bccd7db9.chunk.css.map",
-  "static/css/main.3c317f53.chunk.css.map": "/react-character-manager/static/css/main.3c317f53.chunk.css.map"
+  "static/css/main.1a3466d6.chunk.css.map": "/react-character-manager/static/css/main.1a3466d6.chunk.css.map"
 }
