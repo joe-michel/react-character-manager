@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom' 
 
 class Characters extends Component {
   constructor(props) {
@@ -47,13 +48,13 @@ class Characters extends Component {
   				{characters.map(characters =>
   				
   			<div className="card">
-  				<img src={`data:image/jpeg;base64,${characters.image}`} className="image" alt="#" width="150px" height="150px"/>
+  				<img src={`data:image/jpeg;base64,${characters.image}`} className="image" alt="avatar.png" width="150px" height="150px"/>
   				<div className="card-body">
   					<h5 className="card-title">{characters.name}</h5>
   					<p className="card-text">{characters.shortDescription}</p>
   				</div>
   				<div className="card-footer">
-  					<a className="character-link" href={`/character/${characters.id}`}>View more</a>
+  					<Link to={"/edit/character/" + characters.id}><a className="character-link">View more</a></Link>
   				</div>
   			</div>
   		)}

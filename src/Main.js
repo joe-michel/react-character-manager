@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Upper from './Upper';
 import Bottom from './Bottom';
-import Footer from './Footer';
+import Routes from './Routes'
 
 export default class Main extends Component {
 	render() {

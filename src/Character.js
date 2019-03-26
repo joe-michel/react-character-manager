@@ -59,7 +59,7 @@ class Character extends Component {
 		<div className="characterPage">
 		<h1 className="characterTitle">Character Page: { characters.name }</h1>
 			<div className="characterContent">
-				<img src={`data:image/jpeg;base64,${characters.image}`} className="imageBig" alt="#" width="150px" height="150px"/>
+				<img src={`data:image/jpeg;base64,${characters.image}`} className="imageBig" alt="avatar.png" width="150px" height="150px"/>
 				<h2 className="characterName"> {characters.name} </h2>
 				<p className="Description"> {characters.shortDescription} </p>
 				<ReactMarkdown source={characters.description} escapeHtml={false} />
