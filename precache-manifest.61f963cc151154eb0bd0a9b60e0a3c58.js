@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/react-character-manager/static/js/runtime~main.0c53a67b.js"
   },
   {
-    "revision": "7f618e0db878eaec663b",
-    "url": "/react-character-manager/static/js/main.fafb6bdf.chunk.js"
+    "revision": "22e9216bc2e86c9bcc81",
+    "url": "/react-character-manager/static/js/main.5cd5a8d3.chunk.js"
   },
   {
-    "revision": "a0c50828bb9f4ce28cbe",
-    "url": "/react-character-manager/static/js/2.d4437d94.chunk.js"
+    "revision": "abc09fa28e4857fbbf53",
+    "url": "/react-character-manager/static/js/2.74c97bdc.chunk.js"
   },
   {
-    "revision": "7f618e0db878eaec663b",
+    "revision": "22e9216bc2e86c9bcc81",
     "url": "/react-character-manager/static/css/main.3c317f53.chunk.css"
   },
   {
-    "revision": "a0c50828bb9f4ce28cbe",
+    "revision": "abc09fa28e4857fbbf53",
     "url": "/react-character-manager/static/css/2.bccd7db9.chunk.css"
   },
   {
-    "revision": "8eea37f5401bde426989e06b9c0efffe",
+    "revision": "96024987349f4f3ddbe0accea7a447d0",
     "url": "/react-character-manager/index.html"
   }
 ];
