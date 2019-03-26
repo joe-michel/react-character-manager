@@ -41,7 +41,7 @@ class Characters extends Component {
 		return (
     <div className="characters" >
       <div className="newCharacter">
-        <a href="/create" className="createButton" > Create New character </a>
+        <Link to="/Create" className="createButton"> Create New character </Link>
       </div>
   		<div className="cards">
 
@@ -54,7 +54,7 @@ class Characters extends Component {
   					<p className="card-text">{characters.shortDescription}</p>
   				</div>
   				<div className="card-footer">
-  					<Link to={"/character/" + characters.id}><a className="character-link">View more</a></Link>
+  					<Link to={"/character/" + characters.id} className="character-link">View more</Link>
   				</div>
   			</div>
   		)}

@@ -8,6 +8,7 @@ import Main from './Main'
 import Character from './Character'
 import Edit from './Edit'
 import Create from './Create'
+import Routes from './Routes'
 
 
 // const routing = (
@@ -22,5 +23,5 @@ import Create from './Create'
 // )
 
 ReactDOM.render(<HashRouter>
-  <Main />
+  <Routes />
 </HashRouter>, document.getElementById('root'));

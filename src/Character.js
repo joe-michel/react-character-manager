@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
+import {Link} from 'react-router-dom';
 const ReactDOM = require('react-dom')
 const ReactMarkdown = require('react-markdown')
 
@@ -65,10 +66,10 @@ class Character extends Component {
 				<ReactMarkdown source={characters.description} escapeHtml={false} />
 			</div>
 			<div className="Buttons">
-				<a className="EditButton" href={`/Edit/${characters.id}`}> Edit "{ characters.name }" </a>
-				<button className="Delete" onClick={this.onDelete}> Delete "{ characters.name }" </button>
+				<Link to={"/Edit/" + characters.id} className="EditButton" > Edit { characters.name } </Link>
+				<button className="Delete" onClick={this.onDelete}> Delete { characters.name } </button>
 			</div>
-      <a className="homeButton" href="/">Homepage</a>
+      <Link to="/" className="homeButton">Homepage</Link>
 		</div>
 		);
 	}

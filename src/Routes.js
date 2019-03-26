@@ -7,12 +7,12 @@ import Edit from "./Edit"
 import Create from "./Create"
 
 const Routes = () => (
-    <Switch >
-        <Route exact path="/" component={Main} />
+    <div >
+        <Route exact path="/Bottom" component={Main} />
         <Route exact path="/Character/:id" component={Character} />
         <Route exact path="/Edit/:id" component={Edit} />
         <Route exact path="/Create" component={Create} />
-    </Switch>)
+    </div>)
 
 
 export default Routes
