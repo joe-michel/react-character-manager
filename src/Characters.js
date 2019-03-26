@@ -54,7 +54,7 @@ class Characters extends Component {
   					<p className="card-text">{characters.shortDescription}</p>
   				</div>
   				<div className="card-footer">
-  					<Link to={"/edit/character/" + characters.id}><a className="character-link">View more</a></Link>
+  					<Link to={"/character/" + characters.id}><a className="character-link">View more</a></Link>
   				</div>
   			</div>
   		)}
