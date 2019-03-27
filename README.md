@@ -1,3 +1,10 @@
+# react-character-manager
+### by Joé Michel
+
+##### Link to the application:
+https://joe-michel.github.io/react-character-manager/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
